@@ -1,10 +1,9 @@
-/*HELP
-
+/*
+HELPFUL
 Brownish Color: #736559;
 Blue: #20276c;
 light blue: #54a1d7;
 tan: #fbfbf5;
-
 */
 * { 
 	margin:0; 
@@ -14,20 +13,24 @@ tan: #fbfbf5;
 }
 section, #top, .hero-image {
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
+#top {
+  -webkit-column-count: 3; /* Chrome, Safari, Opera */
+  -moz-column-count: 3; /* Firefox */
+  column-count: 3;
+  padding: .5em 0;
+}
 h1 {
 	color: #736559;
-	font-size: 32px;
+	font-size: 2em;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
 h2 {
 	color: #736559;
-	font-size: 30px;
+	font-size: 1.8em;
 	font-weight: 700;
 	margin-bottom: 20px;
 }
@@ -54,6 +57,7 @@ header .flex {
 }
 .right {
 	text-align: right;
+  	padding-top: 2.5em;
 }
 .left {
 	text-align: left;
@@ -63,9 +67,10 @@ header .flex {
 }
 .text-1 {
 	color: #736559;
-	font-size: 22px;
+	font-size: 1.4em;
 	font-family: 'Lora', serif;
 	font-weight: 700;
+  	margin-top: 1.3em;
 }
 .one-fourth {
 	width: 23%;
@@ -92,37 +97,37 @@ header .flex {
 }
 a.text-number {
 	color: #20276c;
-	font-size: 20px;
+	font-size: 1.3em;
 	font-weight: 700;
 }
 a.contact-us {
 	color: #2c3272;
-	font-size: 16px;
+	font-size: 1.1em;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	margin: 0 auto;
 }
 #hero-image {
-	background: url('assets/fm-ppc-hero-image-min.jpg') no-repeat center center;
+	background: linear-gradient(0deg,rgba(129, 189, 226, .3),rgba(127, 189, 220, 0.3)), url('https://raw.githubusercontent.com/rreed28/Fake-Website-Retire/master/assets/fm-ppc-hero-image-min.jpg') no-repeat center center;
     background-size: cover;
     height: 450px;
     width: 100%;
 }
 .hero-text-1 {
-	padding: 20px 0;
+	 padding: 2em 0;
 }
 .hero-text-1 p.regular {
 	color: #736559;
-	font-size: 16px;
+	font-size: 1.1em;
 }
 .learn-text {
-	font-size: 18px;
+	font-size: 1.2em;
 	font-family: 'Lato', serif;
 	color: #736559;
 	text-transform: uppercase;
 }
 .big-bold {
-	font-size: 32px;
+	font-size: 2em;
 	color: #736559;
 	font-weight: 700;
 	margin-bottom: 25px;
@@ -135,7 +140,7 @@ a.contact-us {
 .hero-text-2 p {
 	font-family: 'Lato';
 	text-align: center;
-	font-size: 22px;
+	font-size: 1.3em;
 	color: #2b2b2b;
 	width: 80%;
     margin: 20px auto;
@@ -151,8 +156,7 @@ a.contact-us {
 }
 .blue-button a {
 	color: #fff;
-	font-weight: 700;
-	font-size: 16px;
+	font-size: 1.1em;
 	text-decoration: none;
 	font-family: 'Montserrat', sans-serif;
 }
@@ -162,24 +166,23 @@ form {
 form input,
 form select {
 	width: 100%;
-    height: 35px;
-    margin-bottom: 10px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    color: #272727;
-    padding-left: 5px;
+  height: 35px;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.1em;
+  color: #272727;
+  padding-left: 5px;
 }
 #community {
-	padding: 50px 50px;
+	padding: 50px 0;
 }
 #community p {
-	font-size: 16px;
+	font-size: 1.1em;
 	margin-bottom: 20px;
 	color: #181818;
 }
 #community .one-third {
 	text-align: center;
-	align-self: normal;
 }
 #community img {
 	width: 80%;
@@ -205,7 +208,7 @@ form select {
 	font-weight: 700;
 	margin: 20px 0;
 	min-height: 50px;
-	font-size: 18px;
+	font-size: 1.2em;
 }
 #blue-callout {
 	background: #5da7d7;
@@ -216,7 +219,7 @@ form select {
 }
 #blue-callout .callout {
 	color: #fff;
-	font-size: 28px;
+	font-size: 1.6em;
 	font-weight: 700;
 }
 .blue-half {
@@ -239,12 +242,15 @@ form select {
 .orange-button a {
 	color: #fff;
 	font-weight: 700;
-	font-size: 16px;
+	font-size: 1.2em;
+  text-transform: uppercase;
 	text-decoration: none;
+  font-family: 'Lato';
 }
 #floor-plan .title {
 	color: #736559;
-	font-size: 32px;
+	font-size: 2em;
+  	line-height: 2.2em;
 	font-weight: 700;
 }
 .floor-plan-background {
@@ -272,14 +278,14 @@ form select {
 }
 .floor-boxes .name {
 	color: #272727;
-	font-size: 18px;
+	font-size: 1.2em;
 	font-weight: 700;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 5px;
 }
 .floor-boxes .unit-size {
 	color: #272727;
-	font-size: 16px;
+	font-size: 1.1em;
 	font-family: 'Montserrat', sans-serif;
 	margin-bottom: 5px;
 }
@@ -295,7 +301,7 @@ form select {
     height: 100%;
     position: relative;
     margin-bottom: -5px;
-    background-image: url('assets/map.png');
+    background-image: url('https://raw.githubusercontent.com/rreed28/Fake-Website-Retire/master/assets/map.png');
     height: 500px;
     background-size: contain;
     background-position: center;
@@ -320,12 +326,12 @@ form select {
 	font-weight: 700;
 	display: block;
 	text-decoration: none;
-	font-size: 18px;
+	font-size: 1.2em;
 	margin: 10px 0;
 }
 .number:before{
   content: '';
-  background:url('assets/call.png') no-repeat center;
+  background:url('https://raw.githubusercontent.com/rreed28/Fake-Website-Retire/master/assets/call.png') no-repeat center;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -335,7 +341,7 @@ form select {
 }
 .email:before{
   content: '';
-  background:url('assets/email.png') no-repeat center;
+  background:url('https://raw.githubusercontent.com/rreed28/Fake-Website-Retire/master/assets/email.png') no-repeat center;
   width: 25px;
   height: 25px;
   display: inline-block;
@@ -345,7 +351,7 @@ form select {
 }
 .address:before{
   content: '';
-  background:url('assets/locate.png') no-repeat center;
+  background:url('https://raw.githubusercontent.com/rreed28/Fake-Website-Retire/master/assets/locate.png') no-repeat center;
   width: 20px;
   height: 20px;
   display: inline-block;
@@ -396,9 +402,58 @@ footer {
   }
 }
 
-
-
-
-
-
-
+@media (max-width: 992px) {
+  #hero-image .one-third {
+    display: none;
+  }
+  #hero-image .one-half {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .one-half, .one-third, .two-third, .one-fourth, .one-third-2 {
+    width: 100%;
+  }
+  #services .one-fourth {
+    margin: 1em 0;
+  }
+  #services .title-bold {
+    margin: 0;
+  }
+  .one-third-2 {
+    margin: 2em 0;
+  }
+  .button-arrow {
+    display: none;
+  }
+}
+@media (max-width: 580px) {
+  #top {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+  }
+  #top .left, #top .right {
+    text-align: center;
+    padding-top: 0;
+  }
+  .hero-text-1 {
+    padding: 2em;
+  }
+  #services .one-fourth, .floor-boxes, #community .two-third {
+    margin: 2em;
+  }
+  .blue-half-2, .blue-half {
+    width: 100%;
+  }
+  .blue-half {
+    margin-bottom: 1em;
+  }
+  #community .one-third {
+    display: none;
+  }
+  .center-padding {
+    margin: 0;
+    padding: 0 2em;
+  }
+}
