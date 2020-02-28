@@ -394,6 +394,9 @@ footer {
   section, #top, .hero-image {
     max-width: 720px;
   }
+  .text-map {
+  	width: 70%;
+  }
 }
 
 @media (min-width: 992px) {
