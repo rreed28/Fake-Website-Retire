@@ -431,10 +431,20 @@ footer {
   }
 }
 @media (max-width: 580px) {
+	h2 {
+	font-size: 1.2em;
+	margin-bottom: .5em;
+	}
   #top {
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
+  }
+  .text-map {
+  	width: 80%;
+  }
+  .text-map a {
+  	font-size: 1em;
   }
   #top .left, #top .right {
     text-align: center;
@@ -459,4 +469,14 @@ footer {
     margin: 0;
     padding: 0 2em;
   }
+  .number:before, .address:before, .email:before {
+  	width: 15px; 
+  	height: 15px;
+  	margin-right: 5px;
+  }
+ #floor-plan .title {
+    font-size: 1.9em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+   }
 }
